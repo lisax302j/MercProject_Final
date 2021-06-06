@@ -13,15 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 public class Char_Adapter extends RecyclerView.Adapter<Char_Adapter.Char_viewHolder> {
-    private OnItemClickListener mListener;
 
-    public interface OnItemClickListener {
-        void onItemClick(int position);
-    }
-
-    public void setOnItemClickListener(OnItemClickListener listener) {
-        mListener = listener;
-    }
 
     String name[];//角色名字
     TextView check;
@@ -61,7 +53,7 @@ public class Char_Adapter extends RecyclerView.Adapter<Char_Adapter.Char_viewHol
     }
 
     public class Char_viewHolder extends RecyclerView.ViewHolder {
-        Button char_five_btn;
+
         TextView char_name_text, char_five_checked;
         ImageView char_five_img;
 
@@ -74,15 +66,16 @@ public class Char_Adapter extends RecyclerView.Adapter<Char_Adapter.Char_viewHol
 
             itemView.setOnClickListener ( new View.OnClickListener ( ) {
                 @Override
+
                 public void onClick(View view) {
-                    boolean isClicked[] = new boolean[0];
-                    if(isClicked[0]) {
-                        check.setText("已擁有");
-                    } else {
-                        check.setText("未持有");
-                    }
-//                    check.setText ( "已擁有" );
+                    char_five_checked.setText ( "已擁有" );
+//                    if(char_five_checked.equals ("未持有")){
+//                    char_five_checked.setText ( "已擁有" );
+//                    }else{
+//                        char_five_checked.setText ( "未持有" );
+//                    }
                 }
+
             } );
         }
 

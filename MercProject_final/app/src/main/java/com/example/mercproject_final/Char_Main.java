@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.mercproject_final.Char_Adapter.OnItemClickListener;
+
 
 public class Char_Main extends AppCompatActivity {
 
@@ -20,10 +20,15 @@ public class Char_Main extends AppCompatActivity {
 
     int image[]={R.drawable.za_morusya,R.drawable.zb_rey,R.drawable.zc_aura,R.drawable.zd_koneria,
             R.drawable.ze_viruberu,R.drawable.zf_arusian,R.drawable.zg_fara,R.drawable.zh_kaiza,
-            R.drawable.zi_misutika,R.drawable.zj_mokuren,
-            R.drawable.za_morusya_press,R.drawable.zb_rey_press,R.drawable.zc_aura_press,R.drawable.zd_koneria_press,
-            R.drawable.ze_viruberu_press,R.drawable.zf_arusian_press,R.drawable.zg_fara_press,R.drawable.zh_kaiza_press,
-            R.drawable.zi_misutika_press,R.drawable.zj_mokuren_press
+            R.drawable.zi_misutika,R.drawable.zj_mokuren,R.drawable.zk_rosyanaku,R.drawable.zl_yuvensu,
+            R.drawable.zm_anahito,R.drawable.zn_harushuto,R.drawable.zo_purometendo,R.drawable.zp_riberudi,
+            R.drawable.zq_matsukase,R.drawable.zr_torenoserika,R.drawable.zs_ibu,R.drawable.zt_miogi,
+            R.drawable.zu_burado,R.drawable.zv_sitoruiyu,R.drawable.zw_barutoromei,R.drawable.zx_roze
+            ,R.drawable.zy_sirufika,R.drawable.zz_guregotoru,R.drawable.aa_furansiru,R.drawable.ab_sarodia
+            ,R.drawable.ac_torisu,R.drawable.ad_rodain,R.drawable.ae_kurei,R.drawable.af_furavia,R.drawable.ag_misheria
+            ,R.drawable.ah_neteneburu,R.drawable.ai_riyusifu,R.drawable.aj_yujia,R.drawable.ak_magareto,R.drawable.al_bureidin
+            ,R.drawable.ak_magareto
+
     };
 
 

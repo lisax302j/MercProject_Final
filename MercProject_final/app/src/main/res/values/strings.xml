@@ -24,6 +24,35 @@
         <item>Kaiza</item>
         <item>Misutika</item>
         <item>Mokuren</item>
+        <item>rosyanaku</item>
+        <item>yuvensu</item>
+        <item>anahito</item>
+        <item>harushuto</item>
+        <item>purometendo</item>
+        <item>riberudi</item>
+        <item>matsukase</item>
+        <item>torenoserika</item>
+        <item>ibu</item>
+        <item>miogi</item>
+        <item>burado</item>
+        <item>sitoruiyu</item>
+        <item>barutoromei</item>
+        <item>roze</item>
+        <item>sirufika</item>
+        <item>guregotoru</item>
+        <item>furansiru</item>
+        <item>sarodia</item>
+        <item>torisu</item>
+        <item>rodain</item>
+        <item>kurei</item>
+        <item>furavia</item>
+        <item>misheria</item>
+        <item>neteneburu</item>
+        <item>riyusifu</item>
+        <item>yujia</item>
+        <item>magareto</item>
+        <item>bureidin</item>
+
     </string-array>
     五星角色縮圖
     <array name="fivestar_minimages">
@@ -37,6 +66,35 @@
         <item>@drawable/zh_kaiza</item>
         <item>@drawable/zi_misutika</item>
         <item>@drawable/zj_mokuren</item>
+        <item>@drawable/zk_rosyanaku</item>
+        <item>@drawable/zl_yuvensu</item>
+        <item>@drawable/zm_anahito</item>
+        <item>@drawable/zn_harushuto</item>
+        <item>@drawable/zo_purometendo</item>
+        <item>@drawable/zp_riberudi</item>
+        <item>@drawable/zq_matsukase</item>
+        <item>@drawable/zr_torenoserika</item>
+        <item>@drawable/zs_ibu</item>
+        <item>@drawable/zt_miogi</item>
+        <item>@drawable/zu_burado</item>
+        <item>@drawable/zv_sitoruiyu</item>
+        <item>@drawable/zw_barutoromei</item>
+        <item>@drawable/zx_roze</item>
+        <item>@drawable/zy_sirufika</item>
+        <item>@drawable/zz_guregotoru</item>
+        <item>@drawable/aa_furansiru</item>
+        <item>@drawable/ab_sarodia</item>
+        <item>@drawable/ac_torisu</item>
+        <item>@drawable/ad_rodain</item>
+        <item>@drawable/ae_kurei</item>
+        <item>@drawable/af_furavia</item>
+        <item>@drawable/ag_misheria</item>
+        <item>@drawable/ah_neteneburu</item>
+        <item>@drawable/ai_riyusifu</item>
+        <item>@drawable/aj_yujia</item>
+        <item>@drawable/ak_magareto</item>
+        <item>@drawable/al_bureidin</item>
+
     </array>
 
     <string-array name="fivestar_checked">
