@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">MercProject_final</string>
+    <string name="title_character_letter">CHARACTER</string>
+    <string name="title_country">COUNTRY</string>
+    <string name="title_seed">SEED</string>
+    <string name="title_rune">RUNE</string>
+    <string name="title_activity">ACTIVITY</string>
+    <string name="title_merc_storia">Merc Storia</string>
+    <string name="char_five_btn">未擁有</string>
+    <string name="char_five_checked">未持有</string>
+    <string name="char_five_name">Name</string>
+    <string name="char_checked">已擁有</string>
+
+
+    五星角色名稱
+    <string-array name="fivestar_title">
+        <item>Morusya</item>
+        <item>Rey</item>
+        <item>Aura</item>
+        <item>Koneria</item>
+        <item>Viruberu</item>
+        <item>Arusian</item>
+        <item>Fara</item>
+        <item>Kaiza</item>
+        <item>Misutika</item>
+        <item>Mokuren</item>
+    </string-array>
+    五星角色縮圖
+    <array name="fivestar_minimages">
+        <item>@drawable/za_morusya</item>
+        <item>@drawable/zb_rey</item>
+        <item>@drawable/zc_aura</item>
+        <item>@drawable/zd_koneria</item>
+        <item>@drawable/ze_viruberu</item>
+        <item>@drawable/zf_arusian</item>
+        <item>@drawable/zg_fara</item>
+        <item>@drawable/zh_kaiza</item>
+        <item>@drawable/zi_misutika</item>
+        <item>@drawable/zj_mokuren</item>
+    </array>
+
+    <string-array name="fivestar_checked">
+        <item>未持有</item>
+        <item>未持有</item>
+        <item>未持有</item>
+        <item>未持有</item>
+        <item>未持有</item>
+        <item>未持有</item>
+        <item>未持有</item>
+        <item>未持有</item>
+        <item>未持有</item>
+        <item>未持有</item>
+    </string-array>
+</resources>

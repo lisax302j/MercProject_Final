@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_color_pink"
+        android:gravity="center_horizontal"
+        android:text="@string/title_merc_storia"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/title_char_letter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/title_color_purple"
+        android:onClick="launch_char_letter"
+        android:text="@string/title_character_letter"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/title_country"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_chainStyle="packed"
+        />
+
+    <Button
+        android:id="@+id/title_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launch_country"
+        android:text="@string/title_country"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/title_seed"
+        app:layout_constraintTop_toBottomOf="@+id/title_char_letter"
+        android:backgroundTint="@color/title_color_orange"/>
+
+    <Button
+        android:id="@+id/title_seed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launch_seed"
+        android:text="@string/title_seed"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/title_rune"
+        app:layout_constraintTop_toBottomOf="@+id/title_country"
+        android:backgroundTint="@color/title_color_yellow"
+         />
+
+    <Button
+        android:id="@+id/title_rune"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launch_rune"
+        android:text="@string/title_rune"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/title_calendar"
+        app:layout_constraintTop_toBottomOf="@+id/title_seed"
+        android:backgroundTint="@color/title_color_blue"/>
+
+    <Button
+        android:id="@+id/title_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launch_calendar"
+        android:text="@string/title_activity"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_rune"
+        android:backgroundTint="@color/title_color_green"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

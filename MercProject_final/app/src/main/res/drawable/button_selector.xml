@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false"><!--沒點選按鈕的時候-->
+            <solid android:color="@color/button_color_default_red"/><!--按鈕背景填充色-->
+    </item>
+    <!--當點選按鈕的時候變為藍色-->
+    <item android:drawable="@color/button_color_press_grey"
+        android:state_pressed="true" />
+</selector>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:state_activated="true" android:drawable="@drawable/za_morusya"></item> <!-- 未點擊時的顏色 -->
+
+    <item android:state_activated="false" android:drawable="@drawable/za_morusya_press"></item> <!-- 點擊後的顏色 -->
+
+    <item android:state_pressed="true"
+        android:drawable="@drawable/za_morusya_press" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/za_morusya_press" /> <!-- focused -->
+    <item android:drawable="@drawable/za_morusya" /> <!-- default -->
+    <item android:state_pressed="true"
+        android:drawable="@drawable/zb_rey_press" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/zb_rey_press" /> <!-- focused -->
+    <item android:drawable="@drawable/zb_rey" /> <!-- default -->
+    <item android:state_pressed="true"
+        android:drawable="@drawable/zc_aura_press" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/zc_aura_press" /> <!-- focused -->
+    <item android:drawable="@drawable/zc_aura" /> <!-- default -->
+    <item android:state_pressed="true"
+        android:drawable="@drawable/zd_koneria_press" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/zd_koneria_press" /> <!-- focused -->
+    <item android:drawable="@drawable/zd_koneria" /> <!-- default -->
+    <item android:state_pressed="true"
+        android:drawable="@drawable/ze_viruberu_press" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/ze_viruberu_press" /> <!-- focused -->
+    <item android:drawable="@drawable/ze_viruberu" /> <!-- default -->
+    <item android:state_pressed="true"
+        android:drawable="@drawable/zf_arusian_press" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/zf_arusian_press" /> <!-- focused -->
+    <item android:drawable="@drawable/zf_arusian" /> <!-- default -->
+    <item android:state_pressed="true"
+        android:drawable="@drawable/zg_fara_press" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/zg_fara_press" /> <!-- focused -->
+    <item android:drawable="@drawable/zg_fara" /> <!-- default -->
+    <item android:state_pressed="true"
+        android:drawable="@drawable/zh_kaiza_press" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/zh_kaiza_press" /> <!-- focused -->
+    <item android:drawable="@drawable/zh_kaiza" /> <!-- default -->
+    <item android:state_pressed="true"
+        android:drawable="@drawable/zi_misutika_press" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/zi_misutika_press" /> <!-- focused -->
+    <item android:drawable="@drawable/zi_misutika" /> <!-- default -->
+    <item android:state_pressed="true"
+        android:drawable="@drawable/zj_mokuren_press" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/zj_mokuren_press" /> <!-- focused -->
+    <item android:drawable="@drawable/zj_mokuren" /> <!-- default -->
+</selector>

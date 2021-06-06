@@ -1,0 +1,2 @@
+rootProject.name = "MercProject_final"
+include ':app'
