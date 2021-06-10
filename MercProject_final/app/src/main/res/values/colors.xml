@@ -15,8 +15,8 @@
     <color name="title_color_blue">#b8f1ed</color>
     <color name="title_color_green">#b8f1cc</color>
 
-    <color name="button_color_default_red">#C30A0A</color>
+    <color name="button_color_default_red">#E62D2D</color>
     <color name="button_color_press_grey">#706A6A</color>
-
+    <color name="button_color_press_blue">#BA4D94FF</color>
 
 </resources>

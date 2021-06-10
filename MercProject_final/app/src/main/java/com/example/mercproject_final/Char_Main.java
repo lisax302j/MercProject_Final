@@ -1,8 +1,10 @@
 package com.example.mercproject_final;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.AdapterView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -46,6 +48,9 @@ public class Char_Main extends AppCompatActivity {
         Char_Adapter myAdapter = new Char_Adapter ( this , s1 , s2 , image );
         recyclerView.setLayoutManager ( new LinearLayoutManager ( this ) );
         recyclerView.setAdapter ( myAdapter );
+
+
+
     }
 
 

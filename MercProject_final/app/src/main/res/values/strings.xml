@@ -10,6 +10,21 @@
     <string name="char_five_checked">未持有</string>
     <string name="char_five_name">Name</string>
     <string name="char_checked">已擁有</string>
+    <string name="seed_darkness">闇屬性</string>
+    <string name="seed_light">光屬性</string>
+    <string name="seed_wind">風屬性</string>
+    <string name="seed_water">水屬性</string>
+    <string name="seed_fire">炎屬性</string>
+    <string name="seed_soul">魂</string>
+    <string name="seed_break">破</string>
+    <string name="seed_paralysis">麻痺</string>
+    <string name="seed_terroist">威壓</string>
+    <string name="seed_search_result">搜尋</string>
+    <string name="seed_spirit">士氣</string>
+    <string name="seed_name">seed name</string>
+    <string name="seed_location">seed location</string>
+    <string name="merc_storia_s_world_map">Merc Storia World Map</string>
+    <string name="_123">123</string>
 
 
     五星角色名稱
