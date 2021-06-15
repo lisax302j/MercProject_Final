@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //設置首頁的五個按鈕分別到不同的畫面
+    //設置首頁的四個按鈕分別到不同的畫面
     public void launch_char_letter(View view) {
         Intent i =new Intent(this,Char_Main.class);
         startActivity ( i );
@@ -31,10 +31,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity ( i );
     }
 
-    public void launch_rune(View view) {
-        Intent i =new Intent(this,Rune_Main.class);
-        startActivity ( i );
-    }
 
     public void launch_calendar(View view) {
         Intent i =new Intent(this,Calendar_Main.class);

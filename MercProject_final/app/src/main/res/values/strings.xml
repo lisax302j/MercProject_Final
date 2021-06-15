@@ -25,6 +25,12 @@
     <string name="seed_location">seed location</string>
     <string name="merc_storia_s_world_map">Merc Storia World Map</string>
     <string name="_123">123</string>
+    <string name="calendar_mark">設置標記</string>
+    <string name="calender_unmark">解除標記</string>
+    <string name="calendar_back_today">回到今日</string>
+    <string name="calendar_getday">取得日期</string>
+
+
 
 
     五星角色名稱
@@ -112,16 +118,5 @@
 
     </array>
 
-    <string-array name="fivestar_checked">
-        <item>未持有</item>
-        <item>未持有</item>
-        <item>未持有</item>
-        <item>未持有</item>
-        <item>未持有</item>
-        <item>未持有</item>
-        <item>未持有</item>
-        <item>未持有</item>
-        <item>未持有</item>
-        <item>未持有</item>
-    </string-array>
+
 </resources>

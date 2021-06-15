@@ -69,10 +69,7 @@ public class Char_Adapter extends RecyclerView.Adapter<Char_Adapter.Char_viewHol
 
                 public void onClick(View view) {
                     char_five_checked.setText ( "已擁有" );
-//                    if(char_five_checked.equals ("未持有")){
-//                    char_five_checked.setText ( "已擁有" );
-//                    }else{
-//                        char_five_checked.setText ( "未持有" );
+
 //                    }
                 }
 
